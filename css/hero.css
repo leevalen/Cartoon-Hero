@@ -1,34 +1,33 @@
 body{
-	margin: 0 auto;
-	font-family: Time New Roman, Georgia, Garamond;
+	background-color: #2C3539;
+	font-family: 'VT323', monospace;
 	font-size: 20px;
 	line-height: 30px;
 }
 
 header{
-	background-color: #ff0066;
-	text-align: left;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px 20px 100px;
 }
 
-h1, h2{
-	font-family: 'Press Start 2P', cursive;
-}
 
 /*header style*/
 
+header img{
+	float: left;
+}
+
 header h1{
+	float: auto;
+	color: #ff0066;
+	font-size: 12px;
+} 
+
+header p{
 	float: auto;
 	color: white;
 	font-size: 12px;
-}
-
-header img{
-	float: left;
-	border-radius: 170px;
-	width: 300px;
-	border: 10px solid #ffffff;
 }
 
 main{
@@ -58,9 +57,9 @@ a:hover{
 }
 
 footer{
-	background-color:#ff0066;
+	font-size: 10px;
 	text-align: center;
-	color: white;
+	color: ;
 	padding: 50px;
 }
 
@@ -82,3 +81,4 @@ p.caption{
 	font-style: italic;
 	margin-top: 0;
 }
+
