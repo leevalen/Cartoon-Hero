@@ -16,19 +16,16 @@ header{
 
 header img{
 	border-radius: 180px;
+	text-align: center;
     width: 500px;
-}
-
-header h1{
-	font-family: 'Press Start 2P', serif;
-	color: #ffffff;
-	font-size: 50px;
+    padding: 0;
+    margin: 0 auto;
 }
 
 /*font styling*/
 h2, h3{
 	font-family: 'Press Start 2P', cursive;
-	color: #ff0066;
+	color: #FF1975;
 	margin: 40px 0 10px;
 }
 
@@ -38,16 +35,20 @@ h2{
 }
 
 b.bold{
-	color: #f4c2c2;
+	color: #e51669;
 }
 
-b.bold:hover{
-	color: #ffffff;
-}
 
 /*main*/
+
+.demobox{
+	background-color: #ff0066;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 main{
-	max-width:800px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 0 30px;
 }
