@@ -1,29 +1,19 @@
 body{
-	background-color: #2C3539;
-	font-family: 'Electrolize', sans-serif;
-	min-height: 10em;
-	display: table-cell;
-	vertical-align: middle;
+	margin: 0;
+	background-color:  #ffffff;
 }
 
-
-div img{
-	float: left;
-	margin: 0;
-	margin:;
-
+header{
+	background-color:#D8BFD8;
+	text-align: center;
 }
 
-h1{
-
-	font-size: 40px;
-	margin: 0;
-	padding: 0;
-
+header h1{
+	color: #000000;
 }
 
-p{
-	font-size: 14px;
-	margin: 0;
-	padding: 0;
+header img{
+	border-radius: 150px;
+    width: 170px;
+    border: 0px solid #483a94;
 }
