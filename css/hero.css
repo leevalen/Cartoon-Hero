@@ -1,84 +1,23 @@
 body{
 	background-color: #2C3539;
-	font-family: 'VT323', monospace;
-	font-size: 20px;
-	line-height: 30px;
+	font-family: 'Electrolize', sans-serif;
 }
 
-header{
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 20px 20px 100px;
+div{
+	height: 250px;
+    width: 550px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -300px;
 }
 
-
-/*header style*/
-
-header img{
+div img{
 	float: left;
 }
 
-header h1{
-	float: auto;
-	color: #ff0066;
-	font-size: 12px;
-} 
-
-header p{
-	float: auto;
-	color: white;
-	font-size: 12px;
+h1{
+	font-size: 30px;
+	margin: center;
 }
-
-main{
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 20px 20px 100px;
-
-}
-
-main img{
-	max-width: 100%;
-}
-
-h2{
-	font-size: 35px;
-	color: #ff0066;
-	margin: 40px 0 10px;
-}
-
-a{
-	color: #ff0066;
-}
-
-a:hover{
-	color: #000000;
-	background color: #ff0066;
-}
-
-footer{
-	font-size: 10px;
-	text-align: center;
-	color: ;
-	padding: 50px;
-}
-
-footer p{
-	margin: 0;
-}
-
-footer a{
-	color: white;
-}
-
-footer a:hover{
-	opacity: .5;
-	background-color: transparent;
-}
-
-p.caption{
-	color: #999999;
-	font-style: italic;
-	margin-top: 0;
-}
-
