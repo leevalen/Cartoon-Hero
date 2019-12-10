@@ -25,7 +25,7 @@ header img{
 /*font styling*/
 h2, h3{
 	font-family: 'Press Start 2P', cursive;
-	color: #FF1975;
+	color: #e6006f;
 	margin: 40px 0 10px;
 }
 
@@ -35,7 +35,7 @@ h2{
 }
 
 b.bold{
-	color: #e51669;
+	color: #cd0063;
 }
 
 
@@ -59,14 +59,28 @@ main img{
 	padding: 0;
 	margin: 0;
 }
+/* list style*/
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 
 a{
-	color: purple;
+	color: #111E6C;
 }
 
 a:hover{
-	color: #ff0066;
+	color: #ffb6c1;
 }
+
+/*Footer style*/
 
 footer{
 	background-color: #ff0066;
